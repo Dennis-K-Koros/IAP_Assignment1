@@ -70,11 +70,11 @@ textarea {
     font-size: 12px;
 }
 
-.btn a {
+.btn button {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: aqua;
+    background-color: aqua;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -86,7 +86,7 @@ textarea {
 
 }
 
-.btn a:hover {
+.btn button:hover {
     background: aqua;
     color: antiquewhite;
     border-radius: 5px;
@@ -94,7 +94,7 @@ textarea {
 
 }
 
-.btn a span {
+.btn button {
     position: relative;
     display: block;
 
@@ -117,68 +117,5 @@ textarea {
     50%,
     100% {
         left: 100%;
-    }
-}
-
-.btn a span:nth :nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #03e9f4);
-    animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s
-}
-
-@keyframes btn-anim2 {
-    0% {
-        top: -100%;
-    }
-
-    50%,
-    100% {
-        top: 100%;
-    }
-}
-
-.btn a span:nth :nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #03e9f4);
-    animation: btn-anim3 1s linear infinite;
-    animation-delay: .5s
-}
-
-@keyframes btn-anim3 {
-    0% {
-        right: -100%;
-    }
-
-    50%,
-    100% {
-        right: 100%;
-    }
-}
-
-.btn a span:nth :nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #03e9f4);
-    animation: btn-anim4 1s linear infinite;
-    animation-delay: .75s
-}
-
-@keyframes btn-anim4 {
-    0% {
-        bottom: -100%;
-    }
-
-    50%,
-    100% {
-        bottom: 100%;
     }
 }
