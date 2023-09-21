@@ -8,7 +8,7 @@ class auth{
     }
 
     public function receive_sign_up($OBJ_SendMail, $lang, $conf){
-        if(isset($_POST["signup"])){
+        if(isset($_POST["submit"])){
 
             $email_address = addslashes($_POST["email_address"]);
 
