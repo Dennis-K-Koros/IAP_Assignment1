@@ -3,7 +3,7 @@ class SendMail{
     public function SendeMail($details=array(), $conf){
         if(!empty($details["email_receiver"]) & !empty($details["name_receiver"]) & !empty($details["email_subject_line"]) & !empty($details["email_message"])){
             $headers = array(
-                'Authorization: Bearer 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',
+                'Authorization: Bearer SG.7777DuGL6-osRSqZ88VTzJWG7Q7777.R9LAtRAp0oSep81Wd5h_sJ0gTzZnWeugayIplx_yqKo7777',
                 'Content-Type: application/json'
             );
 
