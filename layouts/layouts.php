@@ -16,14 +16,14 @@ class layouts{
             ?>
     <body>
         <div class = "login-box">
-            <h1>Contact Us</h1>
-                <form action="mail.php" method="post" autocomplete="on">
+            <h1>Sign In</h1>
+                <form action="mail.php" method="POST" autocomplete="on">
                     <div class = "user-box">
-                        <input type="text" id="name" name="name" required="">
+                        <input type="text" id="name" name="name" required>
                         <label for="name"> Name</label><br><br>
                     </div>
                     <div class = "user-box">
-                        <input type="email" id="email" name="email" required="">
+                        <input type="email" id="email" name="email" required>
                         <label for="email"> Email</label><br><br>
                     </div>
                     <div class="btn">
@@ -31,14 +31,15 @@ class layouts{
                     </div>
   
                 </form>
-        </div>
-        <?php
+                <?php
                }
                public function footer($conf){
                    ?>
             <footer>
                Copyright &copy; <?php print $conf["site_name"] ." ". date("Y"); ?>
             </footer>
+        </div>
+        
     </body>
 </html>
 <?php
