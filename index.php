@@ -3,3 +3,5 @@
 
         $OBJ_Layout->headers($conf);
         $OBJ_Layout->content();
+        
+?>

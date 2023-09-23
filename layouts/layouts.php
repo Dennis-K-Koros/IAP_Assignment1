@@ -31,14 +31,12 @@ class layouts{
                     </div>
   
                 </form>
-               <?php 
-               }
-               ?>
+              
         </div>
         
     </body>
 </html>
 <?php
-    
+} 
 }
     
