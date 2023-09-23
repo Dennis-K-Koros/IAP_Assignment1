@@ -1,0 +1,260 @@
+commit 47904006ec04e6a47da3141bc499893bb4a9c107 (HEAD -> main, origin/main, origin/HEAD)
+commit 47904006ec04e6a47da3141bc499893bb4a9c107 (HEAD -> main, origin/main, origin/HEAD)
+Author: unknown <ian.karanja@strathmore.edu>
+Date:   Sat Sep 23 21:25:53 2023 +0300
+
+    Modified db.sql and dbconn
+
+commit c39188c4e0c142f3fd2a4a469da416f5fbeedb9f
+Merge: 3361bd6 c67c0f4
+Author: unknown <ian.karanja@strathmore.edu>
+Date:   Sat Sep 23 21:00:03 2023 +0300
+
+    Merge branch 'main' of https://github.com/Dennis-K-Koros/IAP_Assignment1
+
+commit 3361bd638e9ab6fb6cb7a337c3bb60a8d410231a
+Author: unknown <ian.karanja@strathmore.edu>
+Date:   Sat Sep 23 20:59:29 2023 +0300
+
+    Changed dbconn
+
+commit c67c0f40eebdf9c8d01a5248147ccb008bfb26ae
+Author: ShadrachAroni <126606301+ShadrachAroni@users.noreply.github.com>
+Date:   Sat Sep 23 20:55:24 2023 +0300
+
+    edit
+
+commit f3b710a535457e5c3bade005c090b0d8aa3bbb19
+Author: unknown <ian.karanja@strathmore.edu>
+Date:   Sat Sep 23 20:51:20 2023 +0300
+
+    tweaked DbConn
+
+commit fee836a94280deccbe8f6e263c014d985c1e229f
+Merge: d73eddb 1312f5a
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Sat Sep 23 20:21:16 2023 +0300
+
+    Merge branch 'main' of https://github.com/Dennis-K-Koros/IAP_Assignment1
+
+commit 1312f5a11d3a2d6af1f43f4d477a958e41722e7e
+Author: unknown <ian.karanja@strathmore.edu>
+Date:   Sat Sep 23 20:18:50 2023 +0300
+
+    enabled part 2 functionality
+
+commit d73eddb8c889e2d2632a313d68c96be1c833819a
+Merge: 2325995 d1251de
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Sat Sep 23 20:18:40 2023 +0300
+
+    Merge branch 'main' of https://github.com/Dennis-K-Koros/IAP_Assignment1
+
+commit 2325995e0679dae042267da298ea88471fada5a9
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Sat Sep 23 20:18:22 2023 +0300
+
+    signup process
+
+commit 97e1c539c687dabb32cdd0d2f25a26ed5ff55714
+Merge: 861e2cb d1251de
+Author: unknown <ian.karanja@strathmore.edu>
+Date:   Sat Sep 23 20:17:17 2023 +0300
+
+    Merge branch 'main' of https://github.com/Dennis-K-Koros/IAP_Assignment1
+
+commit 861e2cb51cc53b00083c8622a385249e98869b10
+Author: unknown <ian.karanja@strathmore.edu>
+Date:   Sat Sep 23 20:16:24 2023 +0300
+
+    enabled part 2 functionality
+
+commit d1251de47a6da3a2719eaa2d5bce90c7df6e478e
+Author: ShadrachAroni <126606301+ShadrachAroni@users.noreply.github.com>
+Date:   Sat Sep 23 19:58:35 2023 +0300
+
+    edit
+
+commit 86a96374031869d09b31a39e1fefe78b3aea1cd2
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sat Sep 23 19:26:14 2023 +0300
+
+    Made modifications on auth and en
+
+commit 3a1a9d7bf189716bb0cb7bc182d44c00be434eac
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sat Sep 23 19:23:31 2023 +0300
+
+    modified
+
+commit 0316a2622ab5c4f29e41e642b0cd03b4d1481a2f
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sat Sep 23 19:23:05 2023 +0300
+
+    Some modifications
+
+commit 1956bf4e76ff35ed55f5641520d5b1f7a767d7d2
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sat Sep 23 19:10:25 2023 +0300
+
+    New modifications
+
+commit 9d5fc5872327779659806150f41c4f71f9701f90
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Sat Sep 23 17:49:06 2023 +0300
+
+    Email Verification succecssful
+
+commit 9ed6c5da4b40934871e5d91f7104e75d0c5c0e63
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Sat Sep 23 16:21:28 2023 +0300
+
+    Corrected some errors
+
+commit bbb00078839badcb9b51ac5dd48db102d8bd54b8
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sat Sep 23 15:22:35 2023 +0300
+
+    Added css for index page
+
+commit 240ad4d1f716f4626163b2b2f84821935462c60e
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sat Sep 23 14:52:03 2023 +0300
+
+    A few changes on css and sign in form
+
+commit ffd0b2f680215a7630a44c9d103fa5183d76ff02
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Sat Sep 23 14:40:06 2023 +0300
+
+    Corrected some errors
+
+commit 1b7b4fcb7a889e8c76a164e48dc0b0315a13d2f9
+Merge: 2773124 53c0627
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Sat Sep 23 14:30:46 2023 +0300
+
+    Merge branch 'main' of https://github.com/Dennis-K-Koros/IAP_Assignment1
+
+commit 2773124ea2ab220a298f9f92a09427c4c0613b7b
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Sat Sep 23 14:30:07 2023 +0300
+
+    Corrected some errors
+
+commit 53c0627a83c4d133a971e289d52f3d4d1be228b3
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sat Sep 23 14:10:54 2023 +0300
+
+    This is the final Sign In page. Don't alter it!
+
+commit 0c6e5799a8f2f8c7d09ae45ef3e8cf107041cec9
+Author: unknown <ian.karanja@strathmore.edu>
+Date:   Fri Sep 22 19:52:18 2023 +0300
+
+    Added sql queries and connection
+
+commit 5b38cae414e066b413055dd1ca0c543a57734893
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Thu Sep 21 15:08:22 2023 +0300
+
+    finalised on my end
+
+commit 001748f22d68f6ddefe83a0809a75e8d5df5a40f
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Thu Sep 21 15:07:14 2023 +0300
+
+    finalised on my end
+
+commit 8a186d95d6c3b3733332d30376f0c326eaa72d18
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Thu Sep 21 14:56:08 2023 +0300
+
+    Some Changes
+
+commit bb776c65d1a0a4d70d8bc0c6b669eaf4d927be44
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Thu Sep 21 14:42:53 2023 +0300
+
+    Some Modifications
+
+commit fb03f11603bd84392431d5ae5501d024e8ad4cb3
+Merge: 13ab72c b37da62
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Thu Sep 21 14:39:16 2023 +0300
+
+    Merge branch 'main' of https://github.com/Dennis-K-Koros/IAP_Assignment1
+
+commit 13ab72c5248323fc2aa7158519bf00da72822f69
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Thu Sep 21 14:38:46 2023 +0300
+
+    Did some backend
+
+commit b37da625d4d4761c8a434ea15650778490cfe759
+Merge: 9f5d647 77b4737
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Thu Sep 21 14:31:09 2023 +0300
+
+    Merge branch 'main' of https://github.com/Dennis-K-Koros/IAP_Assignment1
+
+commit 9f5d6477a93597641cb64a02577402e8aa552ee3
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Thu Sep 21 14:09:45 2023 +0300
+
+    changes
+
+commit f4a5f85c4a8c85ed45ea3a8eb89cb84e1fe57c8f
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Thu Sep 21 14:09:12 2023 +0300
+
+    Mosified contact us to SignIn
+
+commit 77b47376224b7135c2d20a4d5a5119f5b3869d13 (origin/master)
+Author: Dennis-K-Koros <denniskilpy@gmail.com>
+Date:   Thu Sep 21 13:40:25 2023 +0300
+
+    SendMail
+
+commit e9a00e4e25e6d0bed34a7a6e58fe48aa75e23cf9
+Author: Savayi <130579918+SavayiChelsea@users.noreply.github.com>
+Date:   Sun Sep 17 21:33:50 2023 +0300
+
+    Update style.css
+
+commit ad36fd876de9ef1f9f35ba0097ffdae76bd21a76
+Author: Savayi <130579918+SavayiChelsea@users.noreply.github.com>
+Date:   Sun Sep 17 21:33:31 2023 +0300
+
+    Update style.css
+
+commit 0795662186ded6493e343ae4f80821542b6e8fdc
+Merge: 8b7f563 bc3dfa1
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sun Sep 17 21:29:06 2023 +0300
+
+    Merge branch 'main' of https://github.com/Dennis-K-Koros/IAP_Assignment1
+
+commit 8b7f563f1e49f249d8792d01af881336c2968b2a
+Author: Savayi <savayichelsea90@gmail.com>
+Date:   Sun Sep 17 21:24:42 2023 +0300
+
+    Modified
+
+commit bc3dfa1cab9c850fa4e01557c1919d6e50357179
+Author: Savayi <130579918+SavayiChelsea@users.noreply.github.com>
+Date:   Sun Sep 17 20:59:32 2023 +0300
+
+    Added css to index.php
+
+commit 1003ffaa51dbc2a05798f8a43e89cc970f5856b1
+Author: Savayi <130579918+SavayiChelsea@users.noreply.github.com>
+Date:   Sun Sep 17 20:44:49 2023 +0300
+
+    Created index.php
+
+commit 353e8a52eedcd66e761b7858b3d006705c7ed09a
+Author: Dennis Koros <126314789+Dennis-K-Koros@users.noreply.github.com>
+Date:   Sat Sep 16 14:12:54 2023 +0300
+
+    Initial commit
