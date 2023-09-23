@@ -17,7 +17,7 @@ class layouts{
     <body>
         <div class = "login-box">
             <h1>Verification</h1>
-                <form action="SignUp.php" method="POST" autocomplete="on">
+                <form action="" method="POST" autocomplete="on">
                     <div class = "user-box">
                         <input type="text" id="name" name="name" required>
                         <label for="name"> Name</label><br><br>
