@@ -8,7 +8,7 @@ class layouts{
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php print $conf["site_name"]; ?></title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
 </head>
      <?php
          }
@@ -16,7 +16,7 @@ class layouts{
             ?>
     <body>
         <div class = "login-box">
-            <h1>Sign In</h1>
+            <h1>Verification</h1>
                 <form action="mail.php" method="POST" autocomplete="on">
                     <div class = "user-box">
                         <input type="text" id="name" name="name" required>

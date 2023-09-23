@@ -12,7 +12,7 @@
                 <form action="mail.php" method="post" autocomplete="on">
                     <div class = "user-box">
                         <input type="text" id="name" name="name" required="">
-                        <label for="name"> Name</label><br><br>
+                        <label for="name"> Username</label><br><br>
                     </div>
                     <div class = "user-box">
                         <input type="email" id="email" name="email" required="">
