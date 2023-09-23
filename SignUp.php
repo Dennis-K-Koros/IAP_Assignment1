@@ -70,21 +70,21 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
     <div class="login-box">
         <h1>Sign Up</h1>
-        <form action="users.php" method="post" autocomplete="on">
+        <form action="processes/signup_process.php" method="POST" autocomplete="off">
             <div class="user-box">
-                <input type="text" id="name" name="fullname" required="">
+                <input type="text" id="name" name="fullname" required>
                 <label for="name">Full Name</label><br><br>
             </div>
             <div class="user-box">
-                <input type="email" id="email" name="email" required="">
+                <input type="email" id="email" name="email" required>
                 <label for="email">Email</label><br><br>
             </div>
             <div class="user-box">
-                <input type="Password" id="Password" name="password" required="">
+                <input type="Password" id="Password" name="password" required>
                 <label for="Password">Password</label><br><br>
             </div>
             <div class="btn">
-                <button type="submit" name="submit">Submit</button>
+                <button type="submit" name="register">SignUp</button>
             </div>
         </form>
     </div>

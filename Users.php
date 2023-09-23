@@ -9,7 +9,7 @@
 
     <?php
    
-    $mysqli = new mysqli("localhost", "root", "root", "User details");
+    $mysqli = new mysqli("localhost", "root", "", "User details");
     if ($mysqli->connect_error) {
         die('Error connecting to the database: ' . $mysqli->connect_error);
     }
