@@ -34,8 +34,7 @@ body {
     position: relative;
 }
 
-.user-box input,
-textarea {
+.user-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -61,9 +60,7 @@ textarea {
 }
 
 .user-box input:focus~label,
-.user-box input:valid~label,
-.user-box textarea:focus~label,
-.user-box textarea:valid~label {
+.user-box input:valid~label {
     top: -20px;
     left: 0;
     color: aqua;

@@ -18,10 +18,10 @@
                         <input type="email" id="email" name="email" required="">
                         <label for="email"> Email</label><br><br>
                     </div>
-                    <!-- <div class = "user-box">
-                        <textarea id="message" name="message" rows="1" required=""></textarea>
-                        <label for="message"> Message</label><br><br>
-                    </div> -->
+                    <div class = "user-box">
+                        <input type="Password" id="Password" name="Password" required="">
+                        <label for="Password">Password</label><br><br>
+                    </div>
                     <div class="btn">
                         <button type="submit" name="submit">Submit</button>
                     </div>
