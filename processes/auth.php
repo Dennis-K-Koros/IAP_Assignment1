@@ -10,7 +10,7 @@ class auth{
     public function receive_sign_up($OBJ_SendMail, $lang, $conf){
         if(isset($_POST["submit"])){
 
-            $email_address = addslashes($_POST["email_address"]);
+            $email_address = addslashes($_POST["email"]);
 
             if (!filter_var($email_address, FILTER_VALIDATE_EMAIL)) {
                 die("Invalid email format");
@@ -22,7 +22,7 @@ class auth{
                     'email_subject_line' => $lang["sign_up_feedback_subject"],
                     'email_message' => $this->bind_to_template($replacements, $lang["sign_up_feedback"])
                 ], $conf);
-                header("Location: signin.php");
+                header("Location: ./");
                 exit();
             }
         }

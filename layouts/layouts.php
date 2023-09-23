@@ -31,18 +31,14 @@ class layouts{
                     </div>
   
                 </form>
-                <?php
+               <?php 
                }
-               public function footer($conf){
-                   ?>
-            <footer>
-               Copyright &copy; <?php print $conf["site_name"] ." ". date("Y"); ?>
-            </footer>
+               ?>
         </div>
         
     </body>
 </html>
 <?php
-    }
+    
 }
     
