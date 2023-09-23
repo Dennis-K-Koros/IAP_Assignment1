@@ -219,20 +219,3 @@ class dbConn {
     }
 }
 
-// Usage example to insert data into the 'users' table
-$db = new dbConn('MySQLi', 'localhost', 'User details', 'your_username', 'your_password', null);
-
-$dataToInsert = [
-    'username' => 'john_doe',
-    'email' => 'john.doe@example.com',
-    'signup_date' => '2023-09-23',
-    // Add more columns and values as needed
-];
-
-$result = $db->insertData('users', $dataToInsert);
-
-if ($result === TRUE) {
-    echo "Data inserted successfully.";
-} else {
-    echo "Error: " . $result;
-}
