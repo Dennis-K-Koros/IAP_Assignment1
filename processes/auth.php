@@ -23,7 +23,7 @@ class auth{
                     'email_subject_line' => $this->bind_to_template($replacements, $lang["sign_up_feedback_subject"]),
                     'email_message' => $this->bind_to_template($replacements, $lang["sign_up_feedback"])
                 ], $conf);
-                header("Location: SignIn.php");
+                header("Location: SignUp.php");
                 exit();
             }
         }
