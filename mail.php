@@ -8,5 +8,5 @@
 
     $OBJ_SendMail->SendeMail($details, $conf);
 
-    header("Location: SignIn.php");
+    header("Location: ./");
     exit();
