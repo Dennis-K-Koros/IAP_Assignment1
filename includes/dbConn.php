@@ -109,23 +109,49 @@ class dbConn{
                 break;
         }
     }
-    /******************************************************************************************
-    Select Query While Loop From a DataBase (tested)
-     ******************************************************************************************/
-    public function select_while($sql){
+    
+    public function getUsersInAscendingOrder() {
+        $sql = "SELECT * FROM user details ORDER BY signup_date ASC"; 
+
         switch ($this->db_type) {
             case 'MySQLi':
                 $result = $this->connection->query($sql);
-                for ($res = array (); $row = $result->fetch_assoc(); $res[] = $row);
-                return $res;
+                if ($result) {
+                    $users = $result->fetch_all(MYSQLI_ASSOC);
+                    return $users;
+                } else {
+                    return "Error: " . $sql . "<br />" . $this->connection->error;
+                }
                 break;
             case 'PDO':
-                $result = $this->connection->prepare($sql);
-                $result->execute();
-                return $result->fetchAll(PDO::FETCH_ASSOC);
+                try {
+                    $result = $this->connection->query($sql);
+                    if ($result) {
+                        $users = $result->fetchAll(PDO::FETCH_ASSOC);
+                        return $users;
+                    } else {
+                        return "Error: " . $sql . "<br />" . $this->connection->errorInfo()[2];
+                    }
+                } catch (PDOException $e) {
+                    return "Error: " . $sql . "<br />" . $e->getMessage();
+                }
                 break;
-        }
+            }
+        
+             $db = new dbConn('MySQLi', 'localhost', 'user details', 'username', 'password', null);
+                $users = $db->getUsersInAscendingOrder();
+
+if (is_array($users)) {
+    echo "<ol>";
+    foreach ($users as $user) {
+        echo "<li>{$user['username']} (Signup Date: {$user['signup_date']})</li>";
     }
+    echo "</ol>";
+} else {
+    echo "Error: Unable to retrieve users.";
+}
+    }
+     
     /******************************************************************************************
     Update Query (extracted) (tested)
      ******************************************************************************************/
